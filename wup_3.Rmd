@@ -55,6 +55,9 @@ Since the P value from one way nova was a very small number, we are going to tes
 plot(TukeyHSD(model1))
 ```
 
-## Conclusions
-In conclusion as we run the Tukey
+As we run the test we see the middle-back and the front-back seat are in the negative interval line, meaning they had less drinking or about the same alcohol. As we look at the middle-front the interval line is between the negative but more is in the positive numbers meaning they had more drink. this shows us there is a big difference because the interval line goes trough the 0.
 
+## Conclusions
+
+In conclusion the front and middle seat had less alcohol then the back seat, we can tell this by looking at the plot box and prove it by running a TukeyHSD. This test compare the tree categories and came to the conclusion the back seat had a big difference alcohol consumption then the other two.
+ 
