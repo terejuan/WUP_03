@@ -38,6 +38,11 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 The box plot tells us that the back seat drink more alcohol then the front and middle seats. The boxes between the middle and the front seat is about the same, and the back row box is 75 percent bigger then the other two.
 
 ## Numerical Summarys 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+In the numeric data we can see that the mean for the back seats are 3 times higher the the middle and front seat, showing us that they had more drinks then the other two.
 
 ## Inferential Tests
 
