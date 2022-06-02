@@ -46,6 +46,15 @@ In the numeric data we can see that the mean for the back seats are 3 times high
 
 ## Inferential Tests
 
-## Conclusions
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+Since the P value from one way nova was a very small number, we are going to test and see which categories are different by running a plot TukeyHSD.
+```{r}
+plot(TukeyHSD(model1))
+```
 
+## Conclusions
+In conclusion as we run the Tukey
 
